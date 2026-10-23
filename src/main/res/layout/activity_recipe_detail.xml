@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtRecipeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe Name"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients you have"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#26733A"/>
+
+        <TextView
+            android:id="@+id/txtAvailableIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available ingredients"
+            android:textSize="16sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="20dp"
+            android:textColor="#333333"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients you need"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#B04A35"/>
+
+        <TextView
+            android:id="@+id/txtMissingIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Missing ingredients"
+            android:textSize="16sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="20dp"
+            android:textColor="#333333"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cooking instructions"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/txtCookingInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cooking instructions will appear here."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#333333"/>
+
+    </LinearLayout>
+
+</ScrollView>
