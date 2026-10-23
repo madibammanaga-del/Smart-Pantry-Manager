@@ -1,7 +1,7 @@
 # Smart Pantry Manager
 
 # Github link
-
+https://github.com/madibammanaga-del/Smart-Pantry-Manager.git 
 
 ## 1. Project Overview
 
